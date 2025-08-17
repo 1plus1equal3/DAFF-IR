@@ -1,0 +1,19 @@
+# Extra index for PyTorch CUDA wheels
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# PyTorch with CUDA 11.8
+torch==2.6.0+cu118
+torchvision==0.21.0+cu118
+torchaudio==2.6.0+cu118
+torchmetrics
+torchinfo
+# Core ML/Scientific packages
+numpy==1.26.*
+scikit-learn
+pandas
+matplotlib
+opencv-python
+einops
+wandb
+scikit-image
+tqdm
