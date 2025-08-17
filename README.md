@@ -63,6 +63,6 @@ Experiments are performed for different image processing tasks including image d
 </div>
 
 ## Contact 
-Should you have any question, please contact Duy.ND210272@sis.hust.edu.vn
+Should you have any question, please contact linhdt@soict.hust.edu.vn
 
 
