@@ -1,10 +1,8 @@
 import math
-from collections import Counter
 from torch.optim.lr_scheduler import _LRScheduler
 import torch
 import warnings
 from typing import List
-from torch import nn
 from torch.optim import Adam, Optimizer
 
 def get_position_from_periods(iteration, cumulative_period):

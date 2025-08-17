@@ -1,12 +1,10 @@
-import torch
 from trainer import DaffIRTrainer
 from config import *
-from inference import infer, visualize_results
-from utils import *
-from wandb_logger import WandbLogger
-from data.dataset import DegradationDataset, build_dataset
-from data.utils import get_other_paths, get_haze_paths, get_all_paths
-from visualization import visualize
+from data.dataset import build_dataset
+from data.utils import get_all_paths
+from utils.utils import *
+from utils.wandb_logger import WandbLogger
+from utils.visualization import visualize
 from eval import evaluate
 from config import *
 

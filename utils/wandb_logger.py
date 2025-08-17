@@ -1,6 +1,7 @@
+import os
 import wandb
 from datetime import datetime
-from .config import PROJECT_NAME, WANDB_KEY_PATHS
+from ..config import PROJECT_NAME, WANDB_KEY_PATHS
 
 class WandbLogger:
     def __init__(self, project_name=PROJECT_NAME, api_key_path=WANDB_KEY_PATHS, config=None):

@@ -1,7 +1,8 @@
+import os
 import torch
 import matplotlib.pyplot as plt
-from utils import clip_image, compute_psnr, compute_ssim
-from config import chosen_degradation
+from .utils import clip_image, compute_psnr, compute_ssim
+from ..config import chosen_degradation
 
 # Test step for daffir
 def test_step(degrade_img, daff_ir, guided_filter, device='cuda'):

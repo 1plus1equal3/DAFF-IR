@@ -1,6 +1,6 @@
 import torch
 import torchmetrics
-from .config import *
+from ..config import *
 
 class Metrics:
     def __init__(self, name, mode, degrade_classes, device):

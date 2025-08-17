@@ -1,13 +1,13 @@
 import torch
 from tqdm import tqdm
-from .metrics import Metrics
-from .loss import *
-from .config import *
-from .utils import *
-from .metrics import Metrics
+from utils.metrics import Metrics
+from utils.loss import *
+from config import *
+from utils.utils import *
+from utils.metrics import Metrics
 from model import DAFFIR, DAGF
 
-def evaluate(self, daffir: DAFFIR, guided_filter: DAGF, metric: Metrics, device: str, eval_epoch=0):    
+def evaluate(self, ds_test, daffir: DAFFIR, guided_filter: DAGF, metric: Metrics, device: str, eval_epoch=0):    
     if device:
         self.device = device
     else:

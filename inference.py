@@ -1,7 +1,7 @@
 import torch
 import matplotlib.pyplot as plt
-from .utils import clip_image, compute_psnr, compute_ssim
-from .config import chosen_degradation as classes
+from utils.utils import clip_image, compute_psnr, compute_ssim
+from config import chosen_degradation as classes
 
 def infer(degrade_img, daffir, guided_filter, device):
     # Parse data and move to device

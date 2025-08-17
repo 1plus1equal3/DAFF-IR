@@ -1,11 +1,11 @@
 import torch
 from model import DAFFIR, DAGF
-from schedulers import WarmupCosineAnnealingLR
-from metrics import Metrics
-from .loss import *
-from .config import *
-from .utils import *
-from wandb_logger import WandbLogger
+from utils.schedulers import WarmupCosineAnnealingLR
+from utils.metrics import Metrics
+from utils.loss import *
+from utils.utils import *
+from utils.wandb_logger import WandbLogger
+from config import *
 
 def setup_optim(model, config):
     # Build optimizer and scheduler for the model
