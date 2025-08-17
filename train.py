@@ -10,15 +10,15 @@ from visualization import visualize
 from eval import evaluate
 from config import *
 
-#!TODO Prepare dataset here
+#!Prepare dataset here
 train_path_ds = get_all_paths(train_path, train_haze_base_path, train_clear_base_path, train=True)
 test_path_ds = get_all_paths(test_path, test_haze_base_path, test_clear_base_path, train=False)
 train_dataset, test_dataset = build_dataset(train_path_ds, test_path_ds, chosen_degradation, degrade_type=None)
 
-#!TODO Define DaffIRTrainer class here
+#!Define DaffIRTrainer class here
 trainer = DaffIRTrainer()
 
-#!TODO Restore checkpoint
+#!Restore checkpoint
 model_dict = {
     'daff_ir': trainer.daffir,
     'guided_filter': trainer.guided_filter,
@@ -32,7 +32,7 @@ start_epoch = restore_checkpoint(CKPT_DIR, **model_dict)
 # Init Wandb logger
 wandb_logger = WandbLogger(PROJECT_NAME, WANDB_KEY_PATHS)
 
-#!TODO Main training loop
+#!Main training loop
 ######
 ###########
 ######
@@ -69,7 +69,7 @@ def train(epoch, initial_epoch=1, gradient_accumulation_steps=ACCUMULATE_GRADIEN
         save_checkpoint(epoch, **model_dict)
 
 
-#!TODO START TRAINING HERE
+#!START TRAINING HERE
 ######
 ###########
 ######

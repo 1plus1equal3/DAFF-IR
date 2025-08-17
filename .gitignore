@@ -1,4 +1,5 @@
 DAFF_IR_thesis
+ipynb
 *wandb
 *.ipynb
 __pycache__/

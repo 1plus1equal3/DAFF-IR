@@ -2,7 +2,7 @@ import numpy as np
 import os
 
 # Training configuration
-BASE_DATA_PATH = '/home/user02/linhdang/DAFF-IR/data/datasets/oneplusoneisthree/ir-5-degrade/versions/1'
+BASE_DATA_PATH = './DAFF-IR/data/datasets/oneplusoneisthree/ir-5-degrade/versions/1'
 
 # Train data path for haze
 train_haze_base_path = f'{BASE_DATA_PATH}/haze/train/haze'
@@ -40,7 +40,7 @@ SAVE_EPOCH = 5
 EVAL_EPOCH = 20
 
 # Latest checkpoint path
-CKPT_PATH = '/home/user02/linhdang/DAFF-IR/v1_ckpt_2025-06-11/DAFF_LARGE_ckpt_epoch_339.pt'
+CKPT_PATH = './DAFF-IR/v1_ckpt_2025-06-11/DAFF_LARGE_ckpt_epoch_339.pt'
 
 num = 4
 
