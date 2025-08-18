@@ -54,16 +54,16 @@ After placing the training data and testing the directory structure would be as 
      │          ├───0
      │          └───1
      └───test
-         ├───blur
-         │     ├───0
-         │     └───1
-         ├───low_light
-         │     ├───0
-         │     └───1
-         ├───noise
-         │     ├───CBSD68
-         │     └───urban100
-         └───rain
-               ├───0
-               └───1
+          ├───blur
+          │     ├───0
+          │     └───1
+          ├───low_light
+          │     ├───0
+          │     └───1
+          ├───noise
+          │     ├───CBSD68
+          │     └───urban100
+          └───rain
+                ├───0
+                └───1
 ```
