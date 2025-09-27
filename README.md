@@ -7,10 +7,6 @@ Dang Duy Nguyen, Nguyen Minh Bui, Minh Duc Nguyen, [Tuan Linh Dang](https://scho
 > **Abstract:** *Image restoration tasks such as dehazing, deraining, denoising, deblurring and low-light enhancement are traditionally addressed by separate specialized models. This limits their scalability and adaptability in real-world scenarios since it requires training individual models corresponding to each degradation and prior knowledge of the degradation type. To address this, we propose an all-in-one image restoration framework that unifies diverse degradation handling within a single model, where degradation information is learned and embedded into the model to adapt to specific degradation dynamically. Specifically, our method uses channel and spatial attention mechanism in parallel to adjust how the network focuses on different parts of the image, while the degradation is classified and its information is integrated into the model to guide the restoration network. We further incorporate a deep guided filter into our network, demonstrating its effectiveness across image restoration tasks. Our model, named Dual Attention Feature Fusion Image Restoration Model (DAFF-IR), achieves state-of-the-art results on several degradation types, including haze, rain, noise, blur, and low-light conditions.* 
 <hr />
 
-## Network Architecture
-
-<img src = "figures/DAFF-IR.png">
-
 ## Installation
 
 See [INSTALL.md](INSTALL.md) for the installation of dependencies and dataset preperation required to run this codebase.
