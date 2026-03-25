@@ -1,5 +1,7 @@
 # **DAFF-IR**: Dual Attention with Degradation Information Infusion for All-in-One Image Restoration
 
+![DAFF-IR Architecture](./figures/DAFF-IR.png)
+
 Dang Duy Nguyen, Nguyen Minh Bui, Minh Duc Nguyen, [Tuan Linh Dang](https://scholar.google.com/citations?hl=en&user=jkhhgXsAAAAJ&view_op=list_works&sortby=pubdate)
 
 <hr />
